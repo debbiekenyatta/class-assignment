@@ -1,2 +1,13 @@
 import streamlit as st
 
+import streamlit as st
+
+# Title of the app
+st.title("Welcome to My Streamlit App")
+
+# Text input box
+user_input = st.text_input("Enter something:")
+
+# Displaying what the user typed
+if user_input:
+    st.write(f"You typed: {user_input}")
